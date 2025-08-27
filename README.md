@@ -1,1 +1,1 @@
-# Retro-Chat
+# Retro Chat built in Rust
