@@ -1,9 +1,6 @@
 # Retro Chat built in Rust
 
 
-
-
-
 ## ⚙️ Installing Rust & Cargo
 
 This project requires Rust and Cargo. Cargo is Rust’s build tool and package manager, and it comes bundled with Rust.
@@ -22,3 +19,10 @@ This project requires Rust and Cargo. Cargo is Rust’s build tool and package m
    ```
    cargo --version
    rustc --version
+## Running the chat
+1. Start the server file
+   ```
+   cargo run --bin server
+2. Start the client file
+   ```
+   cargo run --bin client <username>
