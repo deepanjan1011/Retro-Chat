@@ -1,7 +1,10 @@
 # Retro Chat built in Rust
 
+## Why I Built This
+Honestly, I made this project partly to pick up my interest in Rust and partly because I was bored.  
 
-## ⚙️ Installing Rust & Cargo
+
+## Installing Rust & Cargo
 
 This project requires Rust and Cargo. Cargo is Rust’s build tool and package manager, and it comes bundled with Rust.
 
@@ -26,20 +29,20 @@ This project requires Rust and Cargo. Cargo is Rust’s build tool and package m
 2. Start the client file
    ```
    cargo run --bin client <username>
-
-##Controls
+   
+### Controls
 - Enter → send message
 - q or Esc → quit
 - Messages window → auto-scrolls to new messages
 - System notifications → highlighted when users join/leave
 
-##Implementation Details
+### Implementation Details
 - Tokio → async networking & concurrency
 - Cursive → retro TUI with ncurses backend
 - Serde + JSON → lightweight message serialization
 - Broadcast channel → fan-out to all connected clients
   
-##Roadmap
+### Roadmap
 - End-to-end encryption support
 - Chat history persistence
 - WebSocket bridge for browser clients
