@@ -1,7 +1,7 @@
 # Retro Chat built in Rust
 
 ## Why I Built This
-Honestly, I made this project partly to pick up my interest in Rust and partly because I was bored.  
+Honestly, I made this project partly to again pick up my interest in Rust and partly because I was bored.  
 
 
 ## Installing Rust & Cargo
